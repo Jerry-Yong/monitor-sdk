@@ -1,0 +1,29 @@
+{
+    "name": "monitor-sdk",
+    "version": "1.0.0",
+    "main": "dist/monitor-sdk.umd.js",
+    "module": "dist/monitor-sdk.es.js",
+    "types": "dist/index.d.js",
+    "exports": {
+        ".": {
+            "import": "./dist/monitor-sdk.es.js",
+            "require": "./dist/monitor-sdk.umd.js",
+            "types": "./dist/index.d.js"
+        }
+    },
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "typescript": "^5",
+        "vite": "^5",
+        "vite-plugin-dts": "^3"
+    },
+    "peerDependencies": {
+        "axios": "^1"
+    },
+    "dependencies": {
+        "web-vitals": "^5.0.3"
+    }
+}
