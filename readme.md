@@ -8,7 +8,7 @@
 
 ### 安装
 ```bash
-cnpm i @mfelibs/smart-monitor-sdk
+pnpm i smart-monitor-sdk
 ```
 
 
